@@ -53,16 +53,25 @@ We selected two assets: **AAPL** and **AMZN**, each with at least 2 years of his
 ## 🗂️ Project Structure
 
 technical_analysis/
+
 ├── tech_analysis/
+
 │ ├── init.py
+
 │ ├── main.py # Entry point for running full experiment
+
 │ ├── strategies.py # SMA and RSI strategy classes
+
 │ ├── optimization.py # Grid search logic for SMA and RSI
+
 │ ├── train_test_split.py # Historical data split with yfinance
-│ └── utils.py # Utility functions (if any)
-├── report/
-│ └── report.ipynb # Jupyter notebook for visual results
+
+│ └── utils.py 
+
+├── report.ipynb
+
 ├── README.md
+
 └── requirements.txt
 
 ## ⚙️ How to Run
